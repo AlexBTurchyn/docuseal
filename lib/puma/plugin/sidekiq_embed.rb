@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'puma/plugin'
+require 'redis_client'
 
 # rubocop:disable Metrics
 Puma::Plugin.create do
